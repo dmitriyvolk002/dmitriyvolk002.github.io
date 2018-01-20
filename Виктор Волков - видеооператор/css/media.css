@@ -1,0 +1,358 @@
+ @media screen and (max-width: 990px) {
+	/*header*/
+	.wrap{
+		min-height: 80vh;
+	}
+
+	.wrap h1{
+		font-size: 6em;
+	}
+
+	.wrap h2{
+		font-size: 4em;
+	}
+
+
+/*Prices*/
+ 	.price{
+ 		width: 100%;
+ 	}
+
+ }
+
+
+ @media screen and (max-width: 967px) {
+ 	/*Базовые*/
+ 	.section{
+ 		margin-top: 15rem;
+ 	}
+
+ 	/*Header*/
+ 	.wrap-block h1{
+ 		font-size: 4rem;
+ 		margin-bottom: 10vh;
+ 	}
+
+ 	.wrap-block h2{
+ 		font-size: 3.5rem;
+ 	}
+
+
+ 	/*Преимущества*/
+ 	.advanges{
+ 		display: table;
+ 		width: 100%;
+ 		margin-top: 4rem;
+ 	}
+
+ 	.advanges img{
+ 		margin-left: 0%;
+ 	}
+
+ 	.advanges-block ul{
+ 		height: 273px;
+ 		display: table-cell;	
+ 		vertical-align: middle;
+ 	}
+
+ 	/*Цены*/
+	.price{
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	/*Footer*/
+	.footer{
+		width: 100%;
+	}
+
+	.name-block{
+		margin-top: 35%;
+	}
+
+
+	.logo-block{
+		margin-top: 35%;
+	}
+
+ }
+
+
+
+ @media screen and (max-width: 768px) {
+	/*Базовые*/
+	.section{
+		margin-top: 8rem;
+	}
+
+	.title{
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.description{
+		font-size: 1.4rem;
+	}
+	
+	/*Навигация*/
+	.nav h3{
+		font-size: 2rem;
+		margin-left: -2.2rem;
+	}
+
+	.nav li{
+		padding: 2%;
+		line-height: 5rem;
+	}
+
+	/*Header*/
+	.wrap{
+		min-height: 80vh;
+	}
+
+	/*Примеры работ*/
+	iframe{
+		width: 100%;
+		height: 100%;
+		padding-top: 10px;
+	}
+
+	/*Преимущества*/
+	.advanges{
+		display: table;
+		width: 100%;
+		margin-top: 4rem;
+	}
+
+	.advanges img{
+		width: 16rem;
+		height: 18rem;
+		margin-top: 4rem;
+	}
+
+	/*Заказать*/
+	.order{
+		height: 60vh;
+	}
+
+	.order-title{
+		font-size: 2rem;
+	}
+
+	.order-description{
+		font-size: 1.2rem;
+	}
+
+	button.order-but{
+		padding: 15px 30px;
+	}
+
+	/*Цены*/
+	.price{
+		width: 50%;
+	}
+
+	.price-title-block{
+		padding: 20px 10px;
+	}
+
+	.price-title-text{
+		font-size:2.7rem;
+	}
+
+	.price-description-text{
+		font-size: 1.3rem;
+	}
+	
+	#rub{
+		height: 1.5rem;
+	}
+
+	.price-text{
+		font-size: 1.8rem;
+	}
+
+	.line{
+		height: 8rem;
+		background-color: #333;
+		margin-top: 7rem;
+	}
+
+	/*Картинка для Footer*/
+	.footer{
+		height: 20rem;
+	}
+
+	.footer-img{
+		height: 80vh;
+		background-size: cover;
+	}
+
+	/*Footer*/
+	.name-block{
+		margin-top: 8.7rem;
+	}
+
+	.name-block h3{
+		font-size: 1.5rem;
+
+	}
+	.name-block h4{
+		font-size: 1.4rem;
+
+	}
+
+	.logo-block{
+		margin-top: 8rem;
+	}
+
+	.logo-block h3{
+		font-size: 1.5rem;
+	}
+
+	.logo-block img{
+		width: 5rem;
+		height: 4.5rem;
+	}
+
+	.copyright-block{
+		margin-top: 2rem;
+	}
+
+ }
+
+
+  @media screen and (max-width: 440px) {
+	/*nav*/
+	.nav{
+		padding-top: -3rem;
+	}
+
+	.nav ul{
+		margin-left: -3rem;
+	}
+
+	.nav li{
+		line-height: 30px;
+	}
+
+	.nav a{
+		font-size: 1.2rem;
+	}
+
+	.nav img{
+		width: 5rem;
+		height: 4rem;
+	}
+
+
+  	/*Заказать*/
+  	.order{
+  		height: 35rem;
+  	}
+
+	.order-title {
+		top: 25%;
+  		
+  	}
+
+  	.order-description{
+  		top: 31%;
+  	}
+
+  	.order-but{
+  		top: 43%;
+  	}
+
+  	/*Цены*/
+  	.price{
+  		width: 80%;
+  	}
+
+  	.price-text{
+  		font-size: 2rem;
+  	}
+
+
+	/*Footer*/
+  	.footer{
+  		height: 22rem;
+  	}
+
+	.name-block{
+		margin-top: 6.7rem;
+	}
+
+  	.logo-block{
+  		display: relative;
+  		margin-left: 12%;
+  		margin-top: 6rem;
+  	}
+
+  }
+
+
+  @media screen and (max-width: 375px) {
+  	/*Nav*/
+	.nav ul{
+		padding: 2rem 0;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.nav li{
+		padding-right: 1px;
+	}
+
+	.nav a{
+		
+	}
+
+  	/*header*/
+  	.wrap-block h1{
+  		font-size: 3rem;
+  		margin-bottom: 10vh;
+  	}
+  	
+  	.wrap-block h2{
+  		font-size: 2.7rem;
+  		margin-bottom: 1vh;
+  	}
+	
+	/*Заказать*/
+  	.order-title{
+  		font-size: 1.6rem;
+  	}
+
+  	.order-description{
+  		font-size: 1.1rem;
+  		margin: 0 10px;
+  	}
+
+  	button.order-but{
+  		padding: 15px 25px;
+  		margin-top: 1.5rem;
+  	}
+
+  	/*footer*/
+  	.name-block{
+  		margin-top: 9rem;
+  	}
+
+  	.logo-block{
+  		margin-top: 7rem;
+  	}
+
+  	.logo-block img{
+  		float: none;
+  		margin-left: 10%;
+  	}
+
+  	.logo-block h3{
+  		display: block;
+  		margin: 0 auto;
+  		margin-top: 1.4rem;
+  		margin-left: 0.4rem;
+  	}
+  }

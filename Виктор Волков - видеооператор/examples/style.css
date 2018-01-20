@@ -1,0 +1,199 @@
+/*Шрифты*/
+.Montserrat{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.Raleway{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+/*Базовые*/
+.section{
+	margin-top: 22rem;
+}
+
+.title{
+	font-size: 2.5rem;
+	text-align: center;
+	color: #555;
+	margin-bottom: 4rem;
+	text-transform: uppercase;
+}
+
+.description{
+	font-size: 1.6rem;
+	text-align: center;
+	color: #888;
+}
+
+.line{
+	height: 12rem;
+	background-color: #333;
+	margin-top: 15rem;
+}
+
+
+/*Навигация*/
+.nav{
+	position: fixed;
+	transition: 0.7s;
+	width: 100%;
+	color: #fff;
+	z-index: 999;
+	padding-top: 1vh;
+}
+
+.nav li{
+	display: inline-block;
+	padding-right: 3%;
+	line-height: 65px;
+}
+
+.nav a{
+	color: #fff;
+	font-size: 16px;
+}
+
+.nav img{
+	display: block;
+	margin: 0 auto;
+	filter: invert(0);
+	transition: 0.7s;
+	/*content:url(http://savepic.ru/11603915.png) !important;*/
+}
+
+/*Hover*/
+.nav a:hover{
+	color: #999;
+	text-decoration: none;	
+}
+
+
+/*Класс для шапки (при скролле)*/
+.default{
+	color: #111;
+	background: rgba(255, 255, 255, 0.9);
+	transition: 0.7s;
+	width: 100%;
+	border-bottom: 1px #F1F1F1 solid;
+
+}
+
+.default a{
+	color: #111;
+}
+
+.default img{
+	filter: invert(1);
+	transition: 0.7s;
+}
+
+/*Header*/
+.wrap{
+	min-height: 100vh;
+	text-align: center;
+	width: 100%;
+	height: 9rem;
+	display: table;
+	/*background: url(../video/ocean.jpg);*/
+	background-size: cover;
+
+}
+
+.wrap-block{
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
+	font-family: sans-serif;
+	z-index: 0;
+}
+
+.wrap-block h1{
+	font-size: 6rem;
+	margin-bottom: 10vh;
+}
+
+.wrap-block h2{
+	font-size: 4.5rem;
+}
+
+
+
+
+/*Примеры работ*/
+.videos{
+	margin-top: 7rem;
+}
+
+.videos iframe{
+	display: block;
+	margin: 2rem auto;
+	min-width: 10rem;
+	min-height: 10rem;
+	width: 100%;
+}
+
+.show-all-but {
+	display: block;
+	margin: 0 auto;
+	font-size: 1.4rem;
+	border: none;
+	color: #fff;
+	background-color: #555;
+	padding: 8px 15px;
+	border-radius: 5px;
+	margin-top: 4rem;
+}
+
+
+/*Картинка для Footer*/
+.footer-img{
+	background: url(../img/bg-footer.jpg) center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 60rem;
+}
+
+
+/*Footer*/
+.footer{
+	background: #1f1f1f;
+	width: 100%;
+	height: 27rem;
+}
+
+.name-block{
+	color: #fff;
+	margin-top: 22%;
+	text-transform: uppercase;
+	text-align: center;
+	border-right: 1px #333 solid;
+}
+
+
+
+
+.logo-block{
+	display: relative;
+	margin-left: 25%;
+	margin-top: 22%;
+}
+
+.logo-block h3 {
+	display: inline-block;
+	margin-left: 1.5rem;
+	color: #fff;
+}
+
+.logo-block img{
+	display: block;
+	margin: 0 auto;
+	float: left;
+} 
+
+.copyright-block{
+	text-align: center;
+	margin-top: 4rem;
+	color: #666;
+}

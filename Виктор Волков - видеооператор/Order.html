@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>Виктор Волков - видеограф. Заказать звонок</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" media="all" href="order/styles.css">
+    <link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Skranji:400,700|Oxygen:400,700">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+<div id="w">
+    <h1>Заказать бесплатный звонок</h1>
+    <form id="contactform" name="contact" method="post" action="#">
+
+      <p class="note"><span class="req">*</span> Поля со звездочкой обязательны для заполнения</p>
+      <div class="row">
+        <label for="name">Как к Вам обращаться? <span class="req">*</span></label>
+        <input type="text" name="name" id="name" class="txt" tabindex="1" placeholder="Ваше имя" required>
+      </div>
+      
+      <div class="row">
+        <label for="email">E-mail Адрес <span class="req"></span></label>
+        <input type="email" name="email" id="email" class="txt" tabindex="2" placeholder="address@mail.ru">
+      </div>
+      
+      <div class="row">
+        <label for="subject">Номер телефона <span class="req">*</span></label>
+        <input type="phone" name="subject" id="subject" class="txt" tabindex="3" placeholder="Номер телефона на который мы позвоним вам" required>
+      </div>
+      
+      <div class="center">
+        <input type="submit" id="submitbtn" name="submitbtn" tabindex="5" value="Заказать">
+      </div>
+
+    </form>
+
+    <a href="index.html" class="back-to-home">Вернуться на главную</a>
+  </div>
+  </body>
+</html>
