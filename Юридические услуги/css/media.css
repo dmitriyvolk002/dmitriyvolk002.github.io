@@ -1,0 +1,91 @@
+ @media screen and (max-width:991px){ #order-message-but{font-size:1.4rem}
+
+.plan-title h1, p{text-align:center}
+
+.plan ul{margin-top:2rem}
+
+.plan #enroll-but{font-size:1.6rem}
+
+.advantages .window{display:block; margin:2rem auto; width:80%; border-radius:5px}
+
+.contacts .footer h3{font-size:2.4rem}
+
+.contacts #call-back{position:relative; top:-6px; width:10rem; height:7rem; font-size:1.2rem}
+}
+
+@media screen and (max-width:767px){.title{font-size:2.6rem}
+
+.navig{border-right:none; border-left:none}
+
+.navig a{font-size:1.6rem}
+
+.navig .logo{margin:-3rem auto; width:11rem; height:11rem}
+
+.header-title img{display:none}
+
+.plan li{font-size:1.4rem}
+
+.plan .ul-2{padding-bottom:0rem}
+
+.plan .ul-2 li{font-size:1.4rem}
+
+.plan #enroll-but{display:block; margin:0 auto}
+
+.plan .but-bott-text{display:none}
+
+.plan-title p{font-size:1.8rem}
+
+.advantages img{display:block; height:10rem}
+
+.advantages h3{font-size:1.6rem}
+
+.advantages p{font-size:1.3rem}
+
+.reviews .user-bg{height:17rem}
+
+.review img{width:11rem}
+
+.reviews .review .user-name{margin-top:4.5rem}
+
+.reviews .review .user-comment{font-size:1.2rem}
+
+}
+
+@media screen and (max-width:477px){textarea{height:8rem}
+
+.bg-sm{width:100%}
+
+ #order-message-but{font-size:1.2rem}
+
+.plan #enroll-but{font-size:1.4rem}
+
+.advantages .window{width:70%}
+
+.user-bg-bg{display:block; margin:0 auto; width:96%}
+
+.reviews .review img{display:block; margin:0 auto; padding-top:3rem; float:none}
+
+.reviews .review .user-name{display:block; font-size:1.4rem; font-weight:600; margin-top:0}
+
+.reviews .review .user-comment{display:block; margin:0 auto; padding-bottom:3rem}
+
+.comment-section{display:block; margin:0 auto; width:90%}
+
+.user-bg-bg{background-color:#594aaf; border-radius:5px}
+
+.contacts .number{margin:2rem auto; font-size:2rem; padding:2rem}
+
+
+}
+
+@media screen and (min-width:351px){.call-pc{display:inline-block}
+
+.call-mobile{display:none}
+}
+
+@media screen and (max-width:350px){.call-pc{display:none}
+
+.call-mobile{display:block}
+
+.call-mobile #call-back{display:block; margin:-6.5rem auto; width:20.3rem; height:4rem; padding:0}
+}

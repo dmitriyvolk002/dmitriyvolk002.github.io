@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport"content="width=device-width">
+ <meta http-equiv="x-ua-compatible"content="ie=edge">
+ <!-- МЕТА -->
+ <title>Заголовок-1</title>
+ <!-- transition to mobile -->
+
+ <meta name="description"content="описание не длиннее 155 символов"/>
+ <meta name="Keywords"content="мета-теги, шаблон, html, css">
+ <link rel="stylesheet"href="css/style.css">
+ <link rel="stylesheet"href="css/bootstrap.min.css">
+ <link rel="stylesheet"href="css/media.css">
+
+</head>
+<body>
+<script>
+window.onresize = function(){var screenWidth=document.body.clientWidth; if (screenWidth>460){window.location.href ='index.html'}
+}
+
+</script>
+<header>
+<!-- desctop menu -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button"class="navbar-toggle collapsed"data-toggle="collapse"data-target="#navbar"aria-expanded="false"aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="brand-logo">
+      <!-- <img src="img/logo.png"alt="Логотип"style="width:5rem; height="3rem; ">-->
+      </div>
+    </div>
+    <div id="navbar"class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="javascript://0"onclick="slowScroll ('#about')">О нас</a></li>
+        <li><a href="javascript://0"onclick="slowScroll ('#services')">Услуги</a></li>
+        <li><a href="javascript://0"onclick="slowScroll ('#reviews')">Отзывы</a></li>
+        <li><a href="javascript://0"onclick="slowScroll ('#contacts')">Контакты</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+<div class="header-title"id="about">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-sm-6 col-xs-12 text-center">
+<h1 class="title">Юридические услуги</h1>
+<p>Юридическая фирма «Bargain» объединят высококвалифицированных юристов 
+и адвокатов, без преувеличения, во все отраслях права.
+<br><br>
+Наши специалисты внимательно следят за изменениями в российском законодательстве и всегда готовы помочь Вам в решении самых сложных задач.  
+</p>
+<button id="order-message-but"data-toggle="modal"href='#modal-1'>
+Проконсультироваться бесплатно
+</button>
+</div>
+<div class="col-md-6 col-sm-6 col-xs-0">
+<img src="img/persefona.png"alt="Статуя">
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<!-- plan -->
+<div class="section"id="services">
+<div class="plan">
+<div class="bg-sm">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+<div class="plan-title">
+<h1 class="title">МЫ РАБОТАЕМ</h1>
+<p>По следующим направлениям</p>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-offset-2 col-md-10 col-sm-offset-2 col-sm-10 col-xs-12">
+<ul>
+<li>семейные</li>
+<li>жилищные</li>
+<li>земельные</li>
+<li>трудовые</li>
+<li>страховые</li>
+<li>наследственные</li>
+<li>авторские</li>
+</ul>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-offset-2 col-md-10 col-sm-offset-2 col-sm-10 col-xs-12 ">
+<ul class="ul-2">
+<li>уголовные дела</li>
+<li>арбитражные споры</li>
+<li>административные дела</li>
+<li>Юридическое сопровождение организаций</li>
+<li>Налоговые споры</li>
+<li>Исполнительное производство</li>
+<li>Профессиональный держатель реестра акционеров</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-md-offset-8 col-md-4 col-sm-offset-6 col-sm-4 col-offset-sm-2 col-xs-12">
+<div class="box">
+<button id="enroll-but"id="order-message-but"data-toggle="modal"href='#modal-2'>
+Записаться
+</button>
+<p class="but-bott-text">Запишитесь на консультацию <br>со специалистом</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- advantages -->
+<div class="section">
+<div class="advantages">
+<div class="container">
+<div class="row">
+<div class="col-md-12 col-sm-12">
+<h1 class="title"style="text-align:center; ">
+Наши преимущества
+</h1>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="window">
+<img src="img/icons/icon1.png"alt="Профессионализм">
+<h3>Профессионализм</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias in vitae modi, animi dignissimos, veniam nihil excepturi, eligendi ut sunt sequi! Eligendi eum quia ipsa.</p>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="window">
+<img src="img/icons/icon2.png"alt="Надежность">
+<h3>Надежность</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias in vitae modi, animi dignissimos, veniam nihil excepturi, eligendi ut sunt sequi! Eligendi eum quia ipsa.</p>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="window">
+<img src="img/icons/icon3.png"alt="Сроки">
+<h3>Сроки</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias in vitae modi, animi dignissimos, veniam nihil excepturi, eligendi ut sunt sequi! Eligendi eum quia ipsa.</p>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="window">
+<img src="img/icons/icon4.png"alt="Выгодная цена">
+<h3>Выгодная цена</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias in vitae modi, animi dignissimos, veniam nihil excepturi, eligendi ut sunt sequi! Eligendi eum quia ipsa.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- reviews -->
+<div class="section"id="reviews">
+<div class="reviews">
+<div class="container">
+<div class="row">
+<div class="col-md-offset-2 col-md-8 col-md-offset-2 col-sm-offset-1 col-sm-10 col-sm-offset-1">
+<h1 class="title">Отзывы</h1>
+
+<div id="carousel-id"class="carousel slide"data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#carousel-id"data-slide-to="0"class=""></li>
+<li data-target="#carousel-id"data-slide-to="1"class=""></li>
+<li data-target="#carousel-id"data-slide-to="2"class="active"></li>
+</ol>
+<div class="carousel-inner">
+<div class="item">
+<div class="review">
+<div class="user-bg-bg">
+<img src="img/photo1.png"alt="Пользователь">
+<p class="user-name">Иванова Мария 27 лет</p>
+<p class="user-comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi suscipit maxime consequatur earum reiciendis nobis, omnis, beatae iusto quibusdam eligendi, nihil sunt quo dicta vitae, sint dolore a voluptatem magnam.</p>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="review">
+<div class="user-bg-bg">
+<img src="img/photo1.png"alt="Пользователь">
+<p class="user-name">Иванова Мария 27 лет</p>
+<p class="user-comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi suscipit maxime consequatur earum reiciendis nobis, omnis, beatae iusto quibusdam eligendi, nihil sunt quo dicta vitae, sint dolore a voluptatem magnam.</p>
+</div>
+</div>
+</div>
+<div class="item active">
+<div class="review">
+<div class="user-bg-bg">
+<img src="img/photo1.png"alt="Пользователь">
+<p class="user-name">Иванова Мария 27 лет</p>
+<p class="user-comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi suscipit maxime consequatur earum reiciendis nobis, omnis, beatae iusto quibusdam eligendi, nihil sunt quo dicta vitae, sint dolore a voluptatem magnam.</p>
+</div>
+</div>
+</div>
+</div>
+<a class="left carousel-control"href="#carousel-id"data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+<a class="right carousel-control"href="#carousel-id"data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- contacts -->
+<div class="section"id="contacts">
+<div class="contacts">
+<div class="container">
+<div class="row">
+<div class="col-md-12 col-sm-12">
+<h1 class="title">Контакты</h1>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row">
+<div class="map">
+<script type="text/javascript"charset="utf-8"async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aaf60636c816eb340f126b951e5d38c4954da1854b645e42ddf0cafdd10dc7d74&amp; width=100%25&amp; height=450&amp; lang=ru_RU&amp; scroll=false"></script>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div class="block">
+<img src="img/logo.png"alt="Логотип">
+<h3>Юридические услуги</h3>
+</div>
+</div>
+
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div class="block">
+<div class="number">
+8 (495) 555-65-44
+</div>
+<div class="call-back-section call-pc">
+<button id="call-back"data-toggle="modal"href='#modal-4'>
+Обратный звонок
+</button>
+</div>
+<div class="call-pc">
+<br>
+<span class="mail-1">mail1@bargain.com</span>
+<b>ИЛИ</b>
+<span class="mail-2">mail2@bargain.com</span>
+</div>
+</div>
+</div>
+</div>
+<div class="row call-mobile">
+<button id="call-back"data-toggle="modal"href='#modal-4'">
+Обратный звонок
+</button>
+</div>
+<div class="call-mobile text-center"style="margin-top:-3rem; ">
+<span class="mail-1">mail1@bargain.com</span>
+<br>
+<span class="mail-2">mail2@bargain.com</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--  modals -->
+<!-- modal-1 -->
+<!-- <a class="btn btn-primary"data-toggle="modal"href='#modal-1'>Trigger modal</a>-->
+<div class="modal fade"id="modal-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button"class="close"data-dismiss="modal"aria-hidden="true">&times; </button>
+<h3 class="modal-title">Бесплатная консультация</h3>
+</div>
+<div class="modal-body">
+<form action="">
+<h5>Ваше ФИО</h5>
+<input type="text"id="input"placeholder="Как к вам обращаться?">
+
+<h5>Ваш e-mail</h5>
+<input type="text"id="input"placeholder="Введите Ваш e-mail">
+<textarea name="your-problem"id="textarea"cols="40"rows="6"placeholder="Опишите вашу проблему"></textarea>
+</form>
+</div>
+<div class="modal-footer">
+<button type="button"class="btn btn-default send-button"data-dismiss="modal">Записаться</button>
+</div>
+</div>
+</div>
+</div>
+<!-- modal-2 -->
+<!-- <a class="btn btn-primary"data-toggle="modal"href='#modal-2'>Trigger modal</a>-->
+<div class="modal fade"id="modal-2">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button"class="close"data-dismiss="modal"aria-hidden="true">&times; </button>
+<h4 class="modal-title">Запись на платную консультацию</h4>
+</div>
+<div class="modal-body">
+<form action="">
+<h5>Ваше ФИО</h5>
+<input type="text"id="input"placeholder="Как к вам обращаться?">
+
+<h5>Ваш номер телефона</h5>
+<input type="text"id="input"placeholder="Введите Ваш номер телефона, по которому мы свяжемся с Вами">
+
+<h5>Ваш e-mail</h5>
+<input type="text"id="input"placeholder="Введите Ваш e-mail">
+</form>
+</div>
+<div class="modal-footer">
+<button type="button"class="btn btn-default send-button"data-dismiss="modal">Записаться</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- modal-3 -->
+<!-- <a class="btn btn-primary"data-toggle="modal"href='#modal-3'>Trigger modal</a>-->
+<div class="modal fade"id="modal-3">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button"class="close"data-dismiss="modal"aria-hidden="true">&times; </button>
+<h4 class="modal-title">Запись на платную консультацию</h4>
+</div>
+<div class="modal-body">
+Hello
+</div>
+<div class="modal-footer">
+<button type="button"class="btn btn-default send-button"data-dismiss="modal">Записаться</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- modal-4 -->
+<!-- <a class="btn btn-primary"data-toggle="modal"href='#modal-4'>Trigger modal</a>-->
+<div class="modal fade"id="modal-4">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button"class="close"data-dismiss="modal"aria-hidden="true">&times; </button>
+<h4 class="modal-title">Заказать бесплатный звонок</h4>
+</div>
+<div class="modal-body">
+<h5>Ваше ФИО</h5>
+<input type="text"id="input"placeholder="Как к вам обращаться?">
+
+<h5>Ваш номер телефона</h5>
+<input type="text"id="input"placeholder="Введите Ваш номер телефона, по которому мы свяжемся с Вами">
+</div>
+<div class="modal-footer">
+<button type="button"class="btn btn-default send-button"data-dismiss="modal">Записаться</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- JavaScript -->
+<!-- Плавная прокрутка -->
+<script>
+  function slowScroll (id){ var offset = 0;     $('html,body').animate ({   scrollTop:$(id).offset ().top - offset}
+,1000); 
+    return false}
+</script>
+<!-- for bootstrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+<!-- Bootstrap core CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"rel="stylesheet">
+<link href="starter-template.css"rel="stylesheet">
+<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+</body>
+</html>

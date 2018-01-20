@@ -1,0 +1,120 @@
+html{ font-size:10px}
+
+.title{color:#fff; font-size:4rem; font-weight:600; text-transform:uppercase}
+
+body{background:linear-gradient(to top,#391e55,#1F1E1E) no-repeat; width:100%height:100%}
+
+.navig{height:6rem; background-color:#693fad; margin-top:10rem; border:5px #2b1f3d solid}
+
+.navig .logo{display:block; margin:-7rem auto; width:17rem; height:17rem}
+
+.navig a{display:block; text-align:center; font-size:2rem; line-height:5rem; color:#c69c6d}
+
+.navig a:hover{text-decoration:none; color:#D5B87A; background-color:rgba(198,156,109,0.4); transition:0.3s}
+
+.navig a:enabled{color:#c69c6d; text-decoration:none}
+
+.header-title h1, p{margin-top:10rem; color:#fff}
+
+.header-title p{border-left:#c69c6d 1px solid; padding-left:1.5rem; text-align:left}
+
+.header-title img{display:block; margin:15rem auto 0 auto}
+
+#order-message-but{font-size:1.8rem; color:#fff; font-weight:600; margin-top:5rem; padding:2.5rem 5rem; background:url(../img/button.png) center center no-repeat; background-size:contain; border-style:none}
+
+#order-message-but:hover{filter:brightness(1.3); transition:0.2s}
+
+#order-message-but:focus{outline:none}
+
+.plan{background:url(../img/back_shape.png) no-repeat; background-size:cover; border-top:rgba(181,142,101,0.7) 1rem solid}
+
+.bg-sm{display:block; margin-right:auto; margin-left:auto; width:90%; background:rgba(89,75,175,0.75)}
+
+.plan-title h1, p{text-align:center}
+
+.plan-title p{font-size:2rem; text-transform:uppercase; color:#fff}
+
+.plan li{text-transform:uppercase; color:#fff; font-size:1.5rem}
+
+.plan .ul-2{padding-bottom:4rem}
+
+.plan .ul-2 li{text-transform:uppercase; list-style-type:none; font-size:1.5rem; font-weight:600}
+
+.plan #enroll-but{display:block; color:#fff; font-size:2rem; font-weight:600; padding:2.5rem 5rem; margin-top:1rem; background:url(../img/button-2.png) center center no-repeat; background-size:contain; border-style:none}
+
+.plan #enroll-but:hover{filter:brightness(1.3); transition:0.2s}
+
+.plan #enroll-but:focus{outline:none}
+.plan .but-bott-text{font-size:1.3rem; text-align:center}
+
+.advantages{padding-bottom:8rem}
+
+.advantages h1{margin-top:8rem; margin-bottom:5rem}
+
+.advantages img{display:block; margin:0 auto; height:13.5rem}
+
+.advantages h3{font-size:2.2rem; color:#fff; padding-bottom:1.5rem; text-align:center}
+
+.advantages p{text-align:center; font-size:1.6rem}
+
+.advantages .window{background-color:#594aaf; padding:1rem; margin-top:2rem; border-radius:5px}
+
+.reviews h1{text-align:center; margin-top:6rem; margin-bottom:4rem}
+
+.reviews{margin-top:1rem; padding-bottom:6rem; background:url(../img/photo_back.png) no-repeat; background-size:cover}
+
+.reviews img{float:left; margin-left:3rem; margin-top:3rem}
+
+.reviews .user-bg{height:23rem; background:url(../img/user-bg.png) no-repeat; background-size:cover; width:100%}
+
+.reviews .review{margin-bottom:1rem}
+
+.reviews .review .user-name{display:inline-block; color:#fff; font-size:1.6rem; margin-top:6rem}
+
+.reviews .review .user-comment{font-size:1.4rem; width:90%; text-align:left}
+
+.contacts h1{margin-top:6rem; margin-bottom:5rem; text-align:center}
+
+.contacts .footer{background-color:#1B0F26}
+
+.contacts .footer .row{padding-top:3rem; padding-bottom:2rem}
+
+.contacts .footer h3{display:inline-block; color:#c69c6d; font-size:2.8rem; font-weight:600}
+
+.contacts .footer img{width:9rem; height:9rem}
+
+.contacts .block{text-align:center}
+
+.contacts .number{display:inline-block; color:#fff; font-size:2rem; font-weight:600; text-align:left; border:#9a7465 1px solid; padding:2rem}
+
+.contacts #call-back{display:inline-block; position:relative; color:#fff; font-size:1.6rem; top:-2px; margin-left:-5px; background-color:#9a7465; padding:2.4rem; border:none}
+
+.contacts #call-back:hover{filter:brightness(1.3); transition:0.2s}
+
+.contacts #call-back:focus{outline:none}
+
+.contacts .mail-1, .mail-2, b{color:#fff; font-size:1.4rem}
+
+.modal-content{background-color:#594AAF !important}
+
+.modal-header{color:#fff; border-bottom:1px #6758BC solid !important}
+
+.modal-title{text-align:center}
+
+.send-button{color:#fff !important; background-color:#6555BF !important; border:none !important}
+.send-button:hover{color:#fff !important; background-color:#7C6CD4 !important; transition:0.2s}
+
+.modal-body h5{color:#fff; text-align:center; font-size:1.4rem}
+
+#input{display:block; margin:0 auto; margin-bottom:3rem; text-align:center; width:90%; color:#fff !important; background-color:#6555BF; border:1px #7261D1 solid !important}
+
+#textarea{display:block; margin:0 auto; width:90%; color:#fff !important; background-color:#6555BF; border:1px #7261D1 solid !important; max-width:90%}
+
+textarea:-moz-placeholder{color:#999}
+textarea::-webkit-input-placeholder{color:#8D7EE0 !important}
+input:-moz-placeholder{color:#999}
+input::-webkit-input-placeholder{color:#8D7EE0 !important}
+.modal-footer{border-top:1px #6758BC solid !important}
+
+/**/
+.mobile{color:red; font-size:2rem}
