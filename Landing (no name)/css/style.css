@@ -1,0 +1,118 @@
+body{box-sizing:border-box}
+
+.font-Yellowtail{font-family:'Yellowtail',cursive}
+
+.font-opensans{font-family:'Open Sans',sans-serif}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, li{font-size:'Open Sans',sans-serif}
+.blue-but{background-color:#3498db; outline:none; border:none; color:#fff; font-size:1.8rem; border-radius:5px}
+
+.blue-but:hover{background-color:#4CAAE9 !important; transition:0.2s}
+
+.green-but:hover{background-color:#38D7B7 !important; transition:0.2s}
+
+.green-but{background-color:#1abc9c; outline:none; border:none; color:#fff; font-size:1.8rem; border-radius:5px}
+
+.default{background-color:rgba(51,51,51,0.9); transition:0.2s}
+
+.navig{position:fixed; width:100%; margin-top:6.5rem; z-index:999; transition:0.2s}
+
+.navig .row{display:block; margin:0 auto}
+
+.navig .brand{font-size:6.5rem; color:#fff}
+
+.navig a, li{display:inline-block; color:#fff; font-size:1.8rem; padding-left:1rem; vertical-align:middle; list-style-type:none; text-decoration:none; line-height:13.2rem}
+
+.navig a:hover{color:#1abc9c; transition:0.2s}
+
+.navig a:enabled{}
+
+.header{height:88.8rem; background:url(../img/header-bg.png) center center no-repeat; background-size:cover}
+
+.header .ipad{margin-top:32rem}
+
+.header-title{font-size:2.8rem; font-weight:600; margin-top:38rem; color:#fff}
+
+.header-text{color:#fff; font-size:1.8rem; margin-top:2rem}
+
+.header button{margin-top:3rem; padding:1.5rem 2rem}
+
+.about{margin-top:10rem; color:#34495e}
+
+.about-title{font-size:2.4rem}
+
+.about-text{font-size:1.6rem}
+
+.about .second-st{margin-top:6.3rem; width:8rem}
+
+.about-case{margin-top:14rem; text-align:center}
+
+.about-case h3{font-size:2rem}
+
+.about-case p{font-size:1.4rem}
+
+.about-case img{display:block; margin:0 auto}
+
+/*Mac*/
+.mac-bg{margin-top:10rem; width:100%; height:51rem; background:url(../img/mac-bg.png); background-size:cover}
+
+.mac-bg .mac-title h3{padding-top:6rem; color:#fff; font-size:3rem; text-align:center}
+
+.mac-bg .mac-text p{color:#fff; font-size:1.8rem; text-align:center; margin-top:2rem}
+
+.mac-bg img{display:block; margin:0 auto; margin-top:8rem}
+
+.reviews-title-text h3{color:#34495e; margin-top:20rem; font-size:4.5rem; text-align:center}
+
+.reviews .review{margin-top:7rem}
+
+.rev-sec{margin-top:4rem}
+
+.reviews .review h5{color:#34495e; font-size:2.4rem}
+
+.reviews .review p{color:#34495e; font-size:1.4rem}
+
+.footer{margin-top:13.5rem; background-color:#34495e}
+.footer .contacts{color:#fff; margin-top:10rem}
+
+.icons{margin-top:-13.5rem}
+
+.icons p{display:inline-block; font-size:1.4rem; color:#fff}
+
+.icons img{display:inline-block; width:2rem; height:2rem}
+
+textarea:-moz-placeholder{color:#999}
+textarea::-webkit-input-placeholder{color:#999 !important}
+input:-moz-placeholder{color:#999}
+input::-webkit-input-placeholder{color:#999 !important}
+
+input{display:block; color:#fff; background-color:#4b5e70; border:1px #43586B solid; border-radius:5px; padding:15px 15px; outline:none}
+
+textarea{display:block; color:#fff; background-color:#4b5e70; border:1px #43586B solid; border-radius:5px; padding:15px 15px; outline:none}
+
+#name{display:inline-block; width:22rem}
+
+#email{display:inline-block; margin-left:1.5rem}
+
+#subject{margin-top:1.5rem; width:44rem}
+
+#message{margin-top:1.5rem; width:44rem; height:12rem}
+
+#reset, #submit{font-size:1.8rem; padding:2rem 5rem; border-radius:5px; margin-top:1.5rem; outline:none}
+
+#submit{margin-left:1.5rem}
+
+.copyright-section p{margin-top:12rem; color:#fff; font-size:1.4rem; width:100%; height:15rem; background-color:#2d3e50; line-height:15rem; text-align:center}
+
+.modal-content{color:#fff; background-color:#435F7B}
+.modal-title{}
+
+.close{color:#fff; opacity:1}
+
+.close:hover{color:#DCDCDC; transition:0.1s}
+
+.purchase-now-section{display:block; margin:0 auto !important; text-align:center}
+
+.purchase-now-section form input{display:block; margin:1.5rem auto; background-color:#506F8F}
+.purchase-now-section input:-moz-placeholder{color:#5E80A3}
+.purchase-now-section input::-webkit-input-placeholder{color:#5E80A3 !important}
