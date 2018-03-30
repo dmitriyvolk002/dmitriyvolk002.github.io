@@ -112,8 +112,6 @@ html, body, p, div, span, h1, h2, h3, h4, h5, h6{
 	margin: 0 auto;
 	width: 60px;
 	height: 65px;
-
-
 	-o-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
