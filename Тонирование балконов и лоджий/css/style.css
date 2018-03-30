@@ -29,7 +29,7 @@
 } 
 
 html, body, p, div, span, h1, h2, h3, h4, h5, h6{
-	font-family: "Montserrat-regular" !important;
+	font-family: "Montserrat-regular";
 }
 
 .regular{
@@ -551,4 +551,8 @@ input[type="image"] {
 .line-left{
 	border-left: 1px solid #fff;
 	padding-bottom: 18px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
 }
