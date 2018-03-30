@@ -222,6 +222,12 @@ html, body, p, div, span, h1, h2, h3, h4, h5, h6{
 .t-item img{
 	width: 80px;
 	height: 70px;
+	opacity: 0.4;
+}
+
+.t-item p{
+	margin-top: 26px;
+	opacity: 0.6;
 }
 
 .t-item{
@@ -236,13 +242,54 @@ html, body, p, div, span, h1, h2, h3, h4, h5, h6{
 	border: 1px solid #131527;
 }
 
-.t-item p{
-	margin-top: 26px;
-}
-
 .t-item:hover{
 	background: linear-gradient(20deg, #d59b4d, #f3c172);
+	cursor: pointer;
 }
+
+.active-tab img, p{
+	opacity: 1;
+}
+
+.active-tab p{
+	opacity: 1;
+}
+
+.active-tab{
+	background: linear-gradient(20deg, #d59b4d, #f3c172);
+}
+
+.nav-tabs {
+     border:none !important; 
+}
+
+.prev-ar{
+	background: url(../graphics/arrow-left.png) no-repeat;
+	background-size: contain;
+	width: 32px;
+	height: 42px;
+	border:none;
+	display: block;
+	position: absolute;
+	left: -45px;
+}
+
+.next-ar{
+	background: url(../graphics/arrow-right.png) no-repeat;
+	background-size: contain;
+	width: 32px;
+	height: 42px;
+	border:none;
+	left: 101%;
+}
+
+.arrow{
+	font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 40%;
+}
+
 
 /*sec-2*/
 .section-2{
@@ -274,6 +321,8 @@ html, body, p, div, span, h1, h2, h3, h4, h5, h6{
 	width: 100%;
 	height: 100%;
 }
+
+
 
 /*prices*/
 .prices .price-block-1 .img-section {
@@ -340,6 +389,10 @@ html, body, p, div, span, h1, h2, h3, h4, h5, h6{
 	margin-top: 66px;
 }
 
+.sp-price{
+	color: #f3c172;
+}
+
 /*video*/
 .video-title{
 	text-align: center;
@@ -361,16 +414,24 @@ html, body, p, div, span, h1, h2, h3, h4, h5, h6{
 .slick-dots li button:before{
 	border: 2px solid #d29648;
 	border-radius:100%;
+	background: none;
 }
 
 .slick-dots li.slick-active button:before{
   border: 2px solid #d29648;
+  color: transparent !important;
   border-radius:100%;
+  background: #d29648;
 }
 
 /*reviews*/
 .reviews{
 	margin-top: 60px;
+}
+
+.rev-block{
+	background: #131527;
+	padding: 10px;
 }
 
 
@@ -398,7 +459,7 @@ html, body, p, div, span, h1, h2, h3, h4, h5, h6{
 	width: 370px;
 	height: 40px;
 	background: #0d0e20;
-	border: 1px solid #d29648;
+	border: 3px solid #d29648;
 	color: #fff;
 	font-size: 22px;
 	font-weight: 600;
@@ -406,6 +467,38 @@ html, body, p, div, span, h1, h2, h3, h4, h5, h6{
 
 input:-moz-placeholder{color:#fff}
 input::-webkit-input-placeholder{color:#fff !important}
+
+#name{
+	background-image: url(../graphics/user.svg);   
+    background-repeat: no-repeat; /*Убираем повтор изображения*/   
+    background-position: 10px; /*Позиционируем*/   
+    background-size: 20px 20px;
+    padding-left: 40px;
+}
+
+#phone{
+	background-image: url(../graphics/phone.svg);   
+    background-repeat: no-repeat; /*Убираем повтор изображения*/   
+    background-position: 10px; /*Позиционируем*/   
+    background-size: 20px 20px;
+    padding-left: 40px;
+}
+
+input {
+  height: 1.2em;
+}
+
+input[name="q"] {
+  padding-right: 1.8em;
+}
+
+input[type="image"] {
+  width: 1.2em;
+  position: relative;
+  left: -1.8em;
+  vertical-align: middle;
+}
+
 
 #send-but{
 	display: block;

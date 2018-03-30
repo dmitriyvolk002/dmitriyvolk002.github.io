@@ -106,38 +106,68 @@
 	<div class="container">
 		<div class="section-1">
 			<div class="row">
-				<div class="top-items">
+				<div class="top-items nav-tabs" role="tablist">
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-0">
-						<div class="t-item">
-							<img src="graphics/house.svg" alt="Тонировка квартир и домов">
-							<p class="main-h4 medium">Тонировка квартир и домов</p>
+						<div class="t-item t-item-1 active-tab" role="presentation">
+							<div href="#home" aria-controls="home" role="tab" data-toggle="tab">
+								<img src="graphics/house_active.svg" alt="Тонировка квартир и домов">
+								<p class="main-h4 medium">Тонировка квартир и домов</p>
+							</div>
 						</div>
 					</div>
+
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						<div class="t-item">
-							<img src="graphics/office.svg" alt="Тонировка офисов">
-							<p class="main-h4 medium">Тонировка офисов</p>
+						<div class="t-item t-item-2">
+							<div href="#office" aria-controls="office" role="tab" data-toggle="tab">
+								<img src="graphics/office_active.svg" alt="Тонировка офисов">
+								<p class="main-h4 medium">Тонировка офисов</p>
+							</div>
+								
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane active" id="home">
+				<div class="section-2">
+					<div class="row">
+						<div class="for-what">
+							<div class="col-lg-6 col-md-6 col-sm-5">
+								<img class="ofiice-img" src="img/photo-office.jpg" alt="Офис">
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-7">
+								<div class="for-what-text-block">
+									<h3 class="main-h3 medium">Для чего нужна тонировка офисных окон?</h3>
+									<p class="main-h4">Тонирующая пленка обеспечивает не только защиту от солнца. С ее помощью вы можете решать дизайнерские задачи – украсить фасад здания или создать неповторимый и недорогой декор в офисе. А еще бывает защитная пленка, которая отвечает за вашу безопасность. Она защищает как от физических агрессивных действий (удар по стеклу палкой, выстрел), так и от посторонних взглядов.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div role="tabpanel" class="tab-pane" id="office">
+				<div class="section-2">
+					<div class="row">
+						<div class="for-what">
+							<div class="col-lg-6 col-md-6 col-sm-5">
+								<img class="ofiice-img" src="img/photo-house.jpg" alt="Офис">
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-7">
+								<div class="for-what-text-block">
+									<h3 class="main-h3 medium">Для чего нужна тонировка балконов и лоджий?</h3>
+									<p class="main-h4"> Вы свободны в выборе, в каком виде находиться на балконе и что делать, без риска быть замеченным извне, вы избавлены от духоты и яркого света, вам комфортно и уютно на балконе в любое время года, вы защищены от опасных, крупных осколков в случае повреждений окон извне, ваши расходы на электроэнергию значительно снижены;</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="section-2">
-			<div class="row">
-				<div class="for-what">
-					<div class="col-lg-6 col-md-6 col-sm-5">
-						<img class="ofiice-img" src="img/photo-office.jpg" alt="Офис">
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-7">
-						<div class="for-what-text-block">
-							<h3 class="main-h3 medium">Для чего нужна тонировка офисных окон?</h3>
-							<p class="main-h4">Тонирующая пленка обеспечивает не только защиту от солнца. С ее помощью вы можете решать дизайнерские задачи – украсить фасад здания или создать неповторимый и недорогой декор в офисе. А еще бывает защитная пленка, которая отвечает за вашу безопасность. Она защищает как от физических агрессивных действий (удар по стеклу палкой, выстрел), так и от посторонних взглядов.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		
 
 		<section class="gallery-slider slider">
 			<div><img src="img/gallery/ph1.jpg" alt=""></div>
@@ -171,7 +201,7 @@
 						<p class="second-h4">
 							Белая матовая,сплошняком 
 							и полосками с вырезами
-							Стоимость: 800 руб/м2
+							<span class="bold">Стоимость:</span> <span class="sp-price bold">800 руб/м2</span>
 						</p>
 					</div>
 					<button class="enroll-but-2 en-b-1">Записаться</button>
@@ -187,7 +217,7 @@
 					<div class="product-description">
 						<p class="second-h4">
 							фирмы SunControl SunTek ASW Sparks и Llumar 
-							Стоимость: 600 руб/м2
+							<span class="bold">Стоимость: </span> <span class="sp-price bold">600 руб/м2</span>
 						</p>
 					</div>
 					<button class=" enroll-but-2 en-b-2">Записаться</button>
@@ -203,7 +233,7 @@
 					<div class="product-description">
 						<p class="second-h4">
 							Золото,серебро,синяя
-							Стоимость: 600 руб/м2
+							<span class="bold">Стоимость:</span> <span class="sp-price bold"> 600 руб/м2</span>
 						</p>
 					</div>
 					<button class=" enroll-but-2 en-b-3">Записаться</button>
@@ -225,7 +255,7 @@
 						<p class="second-h4">
 							Белая матовая,сплошняком 
 							и полосками с вырезами
-							Стоимость: 800 руб/м2
+							<span class="bold">Стоимость:</span> <span class="sp-price bold"> 800 руб/м2</span>
 						</p>
 					</div>
 					<button class="enroll-but-2 en-b-1">Записаться</button>
@@ -241,7 +271,7 @@
 					<div class="product-description">
 						<p class="second-h4">
 							фирмы SunControl SunTek ASW Sparks и Llumar 
-							Стоимость: 600 руб/м2
+							<span class="bold">Стоимость: </span> <span class="sp-price bold">600 руб/м2</span>
 						</p>
 					</div>
 					<button class=" enroll-but-2 en-b-2">Записаться</button>
@@ -257,7 +287,7 @@
 					<div class="product-description">
 						<p class="second-h4">
 							Золото,серебро,синяя
-							Стоимость: 600 руб/м2
+							<span class="bold">Стоимость:</span> <span class="sp-price bold"> 600 руб/м2</span>
 						</p>
 					</div>
 					<button class=" enroll-but-2 en-b-3">Записаться</button>
@@ -295,7 +325,7 @@
 	<div class="reviews reviews-slider">
 		<div class="review-1">
 			<div class="col-lg-4 col-md-4 col-sm-4">
-				<img src="img/feedback_ph1.jpg" alt="Отзыв">
+				<img src="img/feedback_ph1.jpg" alt="Отзыв" style="border-top: 8px solid #d29648;">
 			</div>
 			<div class="col-lg-8 col-md-8 col-sm-8">
 				<div class="rev-block">
@@ -309,7 +339,7 @@
 		
 		<div class="review-1">
 			<div class="col-lg-4 col-md-4 col-sm-4">
-				<img src="img/feedback_ph1.jpg" alt="Отзыв">
+				<img src="img/feedback_ph1.jpg" alt="Отзыв" style="border-top: 8px solid #d29648;">
 			</div>
 			<div class="col-lg-8 col-md-8 col-sm-8">
 				<div class="rev-block">
@@ -371,7 +401,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-2">
-					<img class="logo" src="graphics/logo_light.svg" alt="Логотип">
+					<img class="logo-foot" src="graphics/logo_light.svg" alt="Логотип">
 				</div>
 
 				<div class="col-xs-5">
@@ -400,6 +430,19 @@
 </div>
 
 
+
+
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+<!-- slider scripts -->
   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
       <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
       <script type="text/javascript">
@@ -409,6 +452,8 @@
             infinite: true,
             slidesToShow: 4,
             slidesToScroll: 3,
+            prevArrow:'<button class="prev-ar arrow"></button>',
+            nextArrow:'<button class="next-ar arrow"></button>',
 
             responsive: [
                {
@@ -427,6 +472,7 @@
                   
                  }
                }
+
                // You can unslick at a given breakpoint now by adding:
                // settings: "unslick"
                // instead of a settings object
@@ -439,6 +485,8 @@
 			  infinite: true,
 			  slidesToShow: 1,
 			  slidesToScroll: 1,
+			  prevArrow:'<button class="prev-ar arrow"></button>',
+			  nextArrow:'<button class="next-ar arrow"></button>',
 			 });
 
 // reviews slider
@@ -446,6 +494,8 @@
 			  infinite: true,
 			  slidesToShow: 1,
 			  slidesToScroll: 1,
+			  prevArrow:'<button class="prev-ar arrow"></button>',
+			  nextArrow:'<button class="next-ar arrow"></button>',
 			 });
 
 // mobile prices slider
@@ -454,9 +504,21 @@
 			  infinite: true,
 			  slidesToShow: 1,
 			  slidesToScroll: 1,
+			  prevArrow:'<button class="prev-ar arrow"></button>',
+			  nextArrow:'<button class="next-ar arrow"></button>',
 			 });
         });
 
+// for tabs
+		$('.t-item-1').click(function(event) {
+			$(this).addClass('active-tab');
+			$('.t-item-2').removeClass('active-tab');
+		});
+
+		$('.t-item-2').click(function(event) {
+			$(this).addClass('active-tab');
+			$('.t-item-1').removeClass('active-tab');
+		});
 
     </script>
 </body>
