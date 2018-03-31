@@ -4,67 +4,49 @@
 }
 
 /*fonts*/
-@font-face {
-	font-family: "Montserrat-regular"; 
 
-	src: url("..//fonts/Montserrat-regular.ttf") format("truetype"); 
-	font-style: normal; 
-	font-weight: normal; 
-} 
 
-@font-face {
-	font-family: "Montserrat-medium"; 
-
-	src: url("..//fonts/Montserrat-medium.ttf") format("truetype"); 
-	font-style: normal; 
-	font-weight: normal; 
-} 
-
-@font-face {
-	font-family: "Montserrat-bold"; 
-
-	src: url("..//fonts/Montserrat-bold.ttf") format("truetype"); 
-	font-style: normal; 
-	font-weight: normal; 
-} 
 
 html, body, p, div, span, h1, h2, h3, h4, h5, h6{
-	font-family: "Montserrat-regular";
+	font-family: 'Montserrat', sans-serif;
 }
 
 .regular{
-	font-family: "Montserrat-regular";
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 }
 
 .medium	{
-	font-family: "Montserrat-medium";
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
 }
 
 .bold{
-	font-family: "Montserrat-bold";
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 }
 
 /*main-h*/
 .main-h1{
-	font-family: "Montserrat-regular";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 60px;
 	color: #fff;
 }
 
 .main-h2{
-	font-family: "Montserrat-regular";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 48px;
 	color: #fff;
 }
 
 .main-h3{
-	font-family: "Montserrat-regular";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 36px;
 	color: #fff;
 }
 
 .main-h4{
-	font-family: "Montserrat-regular";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 22px;
 	color: #fff;
 }
@@ -72,25 +54,25 @@ html, body, p, div, span, h1, h2, h3, h4, h5, h6{
 /*secondary-h*/
 
 .second-h1{
-	font-family: "Montserrat-regular";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 32px;
 	color: #fff;
 }
 
 .second-h2{
-	font-family: "Montserrat-regular";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 24px;
 	color: #fff;
 }
 
 .second-h3{
-	font-family: "Montserrat-regular";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	color: #fff;
 }
 
 .second-h4{
-	font-family: "Montserrat-regular";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	color: #fff;
 }
@@ -553,6 +535,3 @@ input[type="image"] {
 	padding-bottom: 18px;
 }
 
-body {
-	font-family: 'Open Sans', sans-serif;
-}
