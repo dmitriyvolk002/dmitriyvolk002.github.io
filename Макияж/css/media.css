@@ -1,3 +1,6 @@
+@media screen and (min-width:1440px){.menu-img{margin-left:120px}
+}
+
 @media screen and (max-width:1440px){.elipse-7{ margin-top:20px;  left:3%}
 
 @media screen and (max-width:1245px){.main-screen form input{ width:180px}
@@ -43,13 +46,48 @@
 .elipse-10{ left:80%}
 }
 
+@media screen and (max-width:785px){.prev-ar{  width:45px;   height:70px;   left:10%}
+
+.next-ar{  width:45px;   height:70px;   left:82%}
+
+.arrow{  background:url(../graphics/arrow_phone.svg) no-repeat;  font-size:0;  line-height:0;  position:absolute;  top:40%;  border:none;  background-size:contain;  z-index:999}
+
+.slick-dots li button:before{border:2px solid #e01798; border-radius:100%; background:none; color:transparent; margin-top:10px}
+
+.slick-dots li.slick-active button:before{ border:2px solid #e01798;  color:transparent !important;  border-radius:100%;  background:#e01798}
+
+.slick-dots li button:before{color:transparent !important}
+
+.prev-ar{ width:22px !important;  height:35px !important;  left:3%}
+
+.next-ar{ width:22px !important;  height:35px !important;  left:92%}
+}
+
 @media screen and (max-width:767px){.modal-content form input{display:block; margin:10px auto; width:80%}
+
+.vk-inst-footer{display:block}
 }
 
 @media screen and (max-width:508px){.main-screen form{margin-top:5px}
 }
 
 @media screen and (max-width:425px){.illustration-section{height:200px !important}
+}
+
+@media screen and (max-width:400px){.modal-content{ padding-left:8px;  padding-right:8px}
+
+.modal-title{margin-top:10px}
+
+.modal-content .service, .write-your-n-ph, .modal-content form input{ margin-top:20px}
+
+.modal-content form{ margin-bottom:20px}
+
+.modal-content button#submit{width:80%; margin-top:20px}
+}
+
+@media screen and (max-width:349px){.modal-content form input{font-size:18px}
+
+.modal-body span{line-height:1; margin-left:15px}
 }
 
 @media screen and (max-width:325px){.master img{width:250px !important; height:250px !important}
@@ -62,3 +100,4 @@
 
 .enroll-but{width:80%}
 }
+
