@@ -22,7 +22,7 @@
 </head>
 <body>
 <!-- main -->
-<div class="main">
+<div class="main" id="scroll-top">
 	<header>
 		<nav class="navigation">
 			<div class="container-fluid hide-in-mobile">
@@ -32,10 +32,10 @@
 					</div>
 					<div class="col-md-6 col-sm-7">
 						<div class="nav-section">
-							<a href="#">О мастере</a>
-							<a href="#">Галерея</a>
-							<a href="#">Прайс-лист</a>
-							<a href="#">Отзывы</a>
+							<a href="#scroll-about">О мастере</a>
+							<a href="#scroll-gallery">Галерея</a>
+							<a href="#scroll-price">Прайс-лист</a>
+							<a href="#scroll-reviews">Отзывы</a>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4 col-xs-3">
@@ -64,10 +64,10 @@
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav">
 							<li>
-							<a href="#">О мастере</a>
-							<a href="#">Галерея</a>
-							<a href="#">Прайс-лист</a>
-							<a href="#">Отзывы</a>
+							<a href="#scroll-about">О мастере</a>
+							<a href="#scroll-gallery">Галерея</a>
+							<a href="#scroll-price">Прайс-лист</a>
+							<a href="#scroll-reviews">Отзывы</a>
 						</li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
@@ -123,7 +123,7 @@
 </div>
 
 <!-- about -->
-<div class="about">
+<div class="about" id="scroll-about">
 	<div class="about-links">
 		<div class="container">
 			<div class="row">
@@ -200,7 +200,7 @@
 
 
 <!-- pm -->
-<div class="pm">
+<div class="pm" id="scroll-gallery">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
@@ -339,7 +339,7 @@
 </div>
 </div>   <!-- -->
 
-<div class="price">
+<div class="price" id="scroll-price">
 	<div class="container">
 		<div class="row price-slider">
 			<div class="col-md-4">
@@ -395,7 +395,7 @@
 </div>
 
 <!-- contacts -->
-<div class="reviews">
+<div class="reviews" id="scroll-reviews">
 	<div class="container">
 		<div class="row reviews-slider">
 			<div class="col-md-4">
@@ -491,7 +491,7 @@
 			<div class="col-md-9 col-sm-7 col-xs-12">
 				<div class="num-section">
 					<p class="phone-number phone-number-footer description">+7 968 332 19 07</p>
-					<a href="#" class="up-but description"><img src="graphics/arrow_up.svg" alt="Наверх">Наверх</a>
+					<a href="#scroll-top" class="up-but description"><img src="graphics/arrow_up.svg" alt="Наверх">Наверх</a>
 				</div>
 			</div>
 		</div>
@@ -633,6 +633,16 @@
 		    }
 		  ]
 		});
+
+// scroll
+		var $page = $('html, body');
+		$('a[href*="#"]').click(function() {
+		    $page.animate({
+		        scrollTop: $($.attr(this, 'href')).offset().top
+		    }, 400);
+		    return false;
+		});
+
 	</script>
 
 	<style>
