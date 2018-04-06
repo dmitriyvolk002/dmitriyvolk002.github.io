@@ -66,6 +66,8 @@
 @media screen and (max-width:767px){.modal-content form input{display:block; margin:10px auto; width:80%}
 
 .vk-inst-footer{display:block}
+
+.application #submit, .main-mobile #submit{margin-top:13px}
 }
 
 @media screen and (max-width:508px){.main-screen form{margin-top:5px}
@@ -85,7 +87,7 @@
 .modal-content button#submit{width:80%; margin-top:20px}
 }
 
-@media screen and (max-width:349px){.modal-content form input{font-size:18px}
+@media screen and (max-width:447px){.modal-content form input{font-size:18px}
 
 .modal-body span{line-height:1; margin-left:15px}
 }
