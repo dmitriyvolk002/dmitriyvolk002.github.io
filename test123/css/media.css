@@ -1,0 +1,43 @@
+@media screen and (max-width: 930px){
+	.color-box{
+		left: 70%;
+	}
+}
+
+@media screen and (max-height: 880px){
+	.command-panel{
+		margin-top: 50vh;
+	}
+}
+
+@media screen and (max-height: 790px){
+	.command-panel{
+		margin-top: 40vh;
+	}
+}
+
+@media screen and (max-height: 715px){
+	.command-panel{
+		margin-top: 60vh;
+	}
+
+	.block-2{
+		display: none;
+	}
+
+	#open-settings{
+		display: block;
+	}
+}
+
+@media screen and (max-height: 665px){
+	.command-panel{
+		margin-top: 50vh;
+		padding: 0px 2px 4px 4px; 
+	}
+
+	input[type="range"] {
+		margin-top: 20px;	
+		width: 100%;
+	}
+}

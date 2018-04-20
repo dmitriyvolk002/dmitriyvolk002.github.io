@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Черепашка</title>
+	<meta name="viewport" content="width=device-width">
+
+	<!-- Bootstrap core CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<div id="snake"></div>
+	
+	<div class="command-panel">
+		<div class="col-md-4 col-sm-4 col-xs-12">
+			<div class="block block-1">
+				<label for="move-to">Направление</label>
+					  <select name="" id="mySelect">
+					  	<option value=""></option>
+					    <option value="">Вверх</option>
+					    <option value="">Вниз</option>
+					    <option value="">Влево</option>
+					    <option value="">Вправо</option>
+					</select>
+
+				<label for="step">Шаги</label>
+				<input name="step" id="step" type="number" value="1">
+				<button id="move-but">Ок</button>
+				<label for="pen-check" style="display: inline-block;">Опустить перо</label>
+				<input id="pen-check" type="checkbox">
+
+				<button id="open-settings">Открыть настройки</button>
+			</div>
+		</div>
+
+		<div class="col-md-8 col-sm-8 col-xs-12">
+			<div class="block block-2">
+				<div class="title">
+					<b>
+						<p id="rgba-data">rgba(10; 10; 10; 1;)</p>
+					</b>
+				</div>
+
+				<div class="rgba-block-text">
+					<label for="r">Красный</label>
+					<label for="g">Зеленый</label>
+					<label for="b">Синий</label>
+					<label for="a">Прозрач</label>
+				</div>
+				<div class="rgba-block-range">
+					<input id="r" class="range" type="range" min="0" max="255" step="1" value="10" oninput="rgba()">
+					<input id="g" class="range" type="range" min="0" max="255" step="1" value="10" oninput="rgba()">
+					<input id="b" class="range" type="range" min="0" max="255" step="1" value="10" oninput="rgba()">
+					<input id="a" class="range" type="range" min="0" max="1" step="0.1" value="1" oninput="rgba()">
+				</div>
+
+				<div class="color-box"></div>
+			
+			</div>
+		</div>
+	</div>
+
+	<div class="clone"></div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/main2.js"></script>	
+<!-- <script src="js/main.js"></script> -->
+
+</body>
+</html>

@@ -1,0 +1,159 @@
+body{
+	background: url(../img/snake/bg.png);
+}
+
+#snake{
+	display: block;
+	position: absolute;
+	background: url(../img/snake/1.png) center center no-repeat;
+	background-size: contain;
+	width: 40px;
+	height: 40px;
+	z-index: 999;
+}
+
+/*animation*/
+/*#snake-move {
+  -webkit-animation: run 1s infinite ;
+  animation: run 1s infinite;
+}
+
+
+@-webkit-keyframes run {
+  0% {
+    background: url(../img/snake/1.png) center center no-repeat;
+    background-size: contain;
+
+  }
+  50% {
+    background: url(../img/snake/2.png) center center no-repeat;
+    background-size: contain;
+
+  }
+  100% {
+    background: url(../img/snake/3.png) center center no-repeat;
+    background-size: contain;
+
+  }
+}*/
+
+/*command-panel*/
+.command-panel{
+	display: block;
+	position: fixed;
+	width: 100%;
+	margin-top: 74vh;
+	padding: 20px 20px 40px 40px; 
+	background:linear-gradient(#D7D7D7,#EEEEEE);
+}
+
+.block-1 input{
+	display: block;
+}
+
+.block-1 label{
+	margin-top: 20px;
+	display: block;
+}
+
+.command-panel #move-but{
+	display: block;
+	margin-top: 10px;
+	width: 70px;
+}
+
+.command-panel #pen-check{
+	display: inline-block;
+}
+
+
+/*#cnvs{
+	width: 800px;
+	height: 400px;
+	border: 1px solid red;
+	background: url(../img/snake/bg.png);
+}*/
+
+.clone{
+	width: 20px;
+	height: 20px;
+	background: #000;
+	border: 1px solid red;
+	position: absolute;
+	display: none;
+}
+
+.clone-child{
+	width: 20px;
+	height: 20px;
+	background: #000;
+	position: absolute;
+}
+
+/*Стилизация ползунка*/
+input[type="range"] {
+  display: inline-block;
+  -webkit-appearance: none;
+  border-radius: 2px;
+  width: 200px;
+  height: 3px;
+  background: #FF7272;
+  box-shadow: inset #ebb 0 0 5px;
+  outline: none;
+  transition: .1s;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+  background: #f22;
+  border-radius: 50%;
+  transition: .1s;
+}
+input[type="range"]::-webkit-slider-thumb:hover,
+input[type="range"]::-webkit-slider-thumb:active {
+  width: 16px;
+  height: 16px;
+}
+
+.title{
+	margin-top: 20px;
+	display: -webkit-box;
+}
+
+.range{
+	margin-top: 20px;	
+	width: 100%;
+}
+
+.rgba-block-text{
+	display: inline-block;
+}
+
+.rgba-block-text label{
+	display: block;
+}
+
+.rgba-block-range{
+	display: inline-block;
+}
+
+.rgba-block-range input{
+	display: block;
+}
+
+.color-box{
+	display: inline-block;
+	background: #000;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 47%;
+	left: 50%;
+	border-radius: 10px;
+}
+
+#open-settings{
+	display: none;
+	margin: 0 0 0 auto;
+}
